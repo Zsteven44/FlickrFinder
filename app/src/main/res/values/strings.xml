@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlickrFinder</string>
+    <string name="flickr_api_key">1508443e49213ff84d566777dc211f2a</string>
+
+    <string name="search_desc">Enter search terms…</string>
+
+</resources>
