@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements BrowseFragment.Di
     @Override
     public void displayDetailsDialog(@NonNull final FlickrItem flickrItem) {
         DetailsFragment
-                .newInstance(flickrItem.getTitle(), flickrItem.getBigUrl())
+                .newInstance(flickrItem.getBigUrl())
                 .show(this.getSupportFragmentManager(),"DetailsFragment");
 
     }
